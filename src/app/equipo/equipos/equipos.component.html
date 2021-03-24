@@ -1,1 +1,10 @@
 <p>equipos works!</p>
+
+<table mat-table [dataSource]="equipos">
+
+    <ng-container matColumnDef="idequipo">
+        <th mat-header-cell *matHeaderCellDef> Score </th>
+        <td mat-cell *matCellDef="let equipo"> {{equipo.idequipo}} </td>
+    </ng-container>
+
+</table>
