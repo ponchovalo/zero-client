@@ -5,7 +5,12 @@ import { EquiposComponent } from './equipos/equipos.component';
 
 
 @NgModule({
-  declarations: [EquiposComponent],
+  declarations: [
+    EquiposComponent
+  ],
+  exports: [
+    EquiposComponent
+  ],
   imports: [
     CommonModule
   ]
